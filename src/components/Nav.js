@@ -1,7 +1,10 @@
 import React from 'react'
 
-class Nav extends React.Component {
-    render() {
+const Nav = () => {
+    const navStyle = {
+        color: 'purple'
+    };
+    
         return (
             <div className="nav-container">
                 <nav>
@@ -14,7 +17,7 @@ class Nav extends React.Component {
                 </nav>
             </div>
         )
-    }
+    
 }
 
 export default Nav

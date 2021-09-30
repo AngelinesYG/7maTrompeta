@@ -9,7 +9,7 @@ import Nav from './components/Nav'
 // import DogProf from './components/DogProf'
 // import Weather from './components/Weather'
 // import Map from './components/Map'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 class App extends React.Component {
     render(){
@@ -17,7 +17,7 @@ class App extends React.Component {
       <div>
         <Nav/>
         <ScrollUpButton/>
-        
+        <Footer/>
       </div>
     );
   }
