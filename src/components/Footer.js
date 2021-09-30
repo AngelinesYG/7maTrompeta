@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class Footer extends React.Component {
     render() {
@@ -8,9 +8,14 @@ class Footer extends React.Component {
                 <p>Gracias por visitarnos!</p>
                 <ul>
                     <li>
-                        <p>Escribanos</p>
+                        <p>Escribanos/Llamanos</p>
                         <a href="mailto:iglesiaseptimatrompeta@gmail.com" target="mailto:iglesiaseptimatrompeta@gmail.com" >
                             <i className="far fa-envelope-open"></i>
+                        </a>
+                        <br/>
+                        <br/>
+                        <a href="tel:+1-347-824-4863" target="tel:347-824-4863">
+                            <i className="fas fa-phone"></i>
                         </a>
                     </li>
                     <li>
@@ -31,11 +36,14 @@ class Footer extends React.Component {
                             <i className="fab fa-youtube-square"></i>
                         </a>
                     </li>
-
+                    <li>
+                        <p>Visitanos:</p>
+                        <p>1441 Ogden Ave. Bronx, N.Y. 10452</p>
+                        <p></p>    
+                    </li>
                 </ul>
             </div>
         );
     }
 }
-
 export default Footer

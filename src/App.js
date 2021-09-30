@@ -2,23 +2,27 @@ import React from 'react'
 
 // import axios from 'axios'
 
-import {TinyButton as ScrollUpButton} from 'react-scroll-up-button'
+import ScrollUpButton from 'react-scroll-up-button'
 
 import Nav from './components/Nav'
-// import HeroArea from './components/HeroArea'
-// import DogProf from './components/DogProf'
-// import Weather from './components/Weather'
-// import Map from './components/Map'
+import About from './components/About'
+import Announcements from './components/Announcements'
+import Events from './components/Events'
+import Staff from './components/Staff'
 import Footer from './components/Footer'
 
 class App extends React.Component {
-    render(){
+    render() {
       return (
-      <div>
-        <Nav/>
-        <ScrollUpButton/>
-        <Footer/>
-      </div>
+        <div>
+          <Nav/>
+          <ScrollUpButton/>
+           <About/>
+          <Announcements/>
+          {/* <Events/> */}
+          {/* <Staff/> */}
+          <Footer/>
+        </div>
     );
   }
 }
