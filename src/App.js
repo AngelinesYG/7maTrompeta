@@ -19,8 +19,8 @@ class App extends React.Component {
           <ScrollUpButton/>
            <About/>
           <Announcements/>
-          {/* <Events/> */}
-          {/* <Staff/> */}
+          <Events/>
+          <Staff/>
           <Footer/>
         </div>
     );
