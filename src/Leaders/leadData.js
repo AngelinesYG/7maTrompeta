@@ -2,7 +2,7 @@ export const adminImages = [
     {image:"", fullName: "Keilan Almonte", Title: "Pastor"},
     {image:"", fullName: "Radaiza Almonte", Title: "Pastora"},
     {image:"", fullName: "Victoria Estrella", Title: "Tesorera"},
-    {image:"", fullName: "Angelines YaportGarcia", Title: "Secretaria"},
+    {image:"https://i.imgur.com/culx4Kh.jpg", fullName: "Angelines YaportGarcia", Title: "Secretaria"},
     {image:"", fullName: "Miriam Alvarez", Title: "Anciana"},
     {image:"", fullName: "Maria Mercedes", Title: "Anciana"},
     {image:"", fullName: "Vicenta Lora (Mery)", Title: "Anciana"},
@@ -10,8 +10,8 @@ export const adminImages = [
     {image:"", fullName: "Ramon Mendez", Title: "Anciano"},
 ]
 export const albanzImages = [
-    {image:"", fullName: "", Title: ""},
-    {image:"", fullName: "", Title: ""},
+    {image:"", fullName: "Luz Nunez (Chili)", Title: "Lider de Alabanza y Adoracion"},
+    {image:"", fullName: "Hether Almonte", Title: "Directora de Musica"},
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
@@ -30,8 +30,8 @@ export const albanzImages = [
     {image:"", fullName: "", Title: ""},
 ]
 export const jovenesImages = [
-    {image:"", fullName: "", Title: ""}, 
-    {image:"", fullName: "", Title: ""},
+    {image:"", fullName: "Jose Vargas", Title: "Pastor de Jovenes"}, 
+    {image:"", fullName: "Charlenny Vargas", Title: "Pastora de Jovenes"},
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
@@ -45,8 +45,8 @@ export const jovenesImages = [
     {image:"", fullName: "", Title: ""},   
 ]
 export const danzaImages = [
-    {image:"", fullName: "", Title: ""}, 
-    {image:"", fullName: "", Title: ""},
+    {image:"", fullName: "Angelines YaportGarcia", Title: "Supervisora de Danza"}, 
+    {image:"", fullName: "Kelly Estrella", Title: "Lider de Danza"},
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
@@ -60,7 +60,7 @@ export const danzaImages = [
     {image:"", fullName: "", Title: ""}, 
 ]
 export const danceImages = [
-    {image:"", fullName: "", Title: ""}, 
+    {image:"", fullName: "Manyely Garcia", Title: "Lider de Danza"}, 
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
     {image:"", fullName: "", Title: ""},
