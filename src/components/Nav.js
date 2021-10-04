@@ -1,20 +1,38 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
-class Nav extends React.Component {
-    render() {
+const Nav = () => {
+    const navStyle = {
+       color: 'purple'
+    };
         return (
             <div className="nav-container">
                 <nav>
-                    <h1 onClick={() => window.location.replace("/#nav-container")}>Septima Trompeta</h1>
-                    <ul>
-                        <a onClick={() => window.location.replace("/#about-container")}><li>Nuestra Mision</li></a>
-                        <a onClick={() => window.location.replace("/#staff-container")}><li>Quienes Somos</li></a>
-                        <a onClick={() => window.location.replace("/#events-container")}><li>Eventos</li></a>
+                    <h3><img src="/images/circle-logo.png" alt="image" position="static" height={64}/></h3>
+                    <ul className="nav-Links">
+                        <Link style={navStyle} to="/">
+                        <li>Casa</li>
+                        </Link>
+                        <br />
+                        <Link style={navStyle} to="/about">
+                        <li>Mision</li>
+                        </Link>
+                        <br />
+                        <Link style={navStyle} to="/announcements">
+                        <li>Anuncios</li>
+                        </Link>
+                        <br />
+                        <Link style={navStyle} to="/events">
+                        <li>Eventos</li>
+                        </Link>
+                        <Link style={navStyle} to="/staff">
+                        <li>Liderasgo</li>
+                        </Link>
                     </ul>
                 </nav>
             </div>
         )
-     }
+     
 }
 
 export default Nav

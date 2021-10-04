@@ -1,5 +1,7 @@
 import React from 'react'
-
+import {BrowserRouter as Router} from 'react-router-dom'
+import {Route, Switch, Link} from 'react-router-dom';
+import {Redirect} from 'react-router';
 // import axios from 'axios'
 
 import ScrollUpButton from 'react-scroll-up-button'
@@ -14,6 +16,7 @@ import Footer from './components/Footer'
 class App extends React.Component {
     render() {
       return (
+      <Router>
         <div>
           <Nav/>
           <ScrollUpButton/>
@@ -23,6 +26,7 @@ class App extends React.Component {
           <Staff/>
           <Footer/>
         </div>
+      </Router>
     );
   }
 }
