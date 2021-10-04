@@ -8,13 +8,13 @@ const Nav = () => {
         return (
             <div className="nav-container">
                 <nav>
-                    <h3><img src="/images/circle-logo.png" alt="image" position="static" height={64}/></h3>
+                <Link style={navStyle} to="/"><img src="/images/circle-logo.png" alt="image" position="static" height={64}/></Link>
                     <ul className="nav-Links">
                         <Link style={navStyle} to="/">
                         <li>Casa</li>
                         </Link>
                         <br />
-                        <Link style={navStyle} to="/about">
+                        <Link style={navStyle} to="/mission">
                         <li>Mision</li>
                         </Link>
                         <br />

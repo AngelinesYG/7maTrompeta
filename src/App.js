@@ -6,8 +6,9 @@ import {Redirect} from 'react-router';
 
 import ScrollUpButton from 'react-scroll-up-button'
 
+import Home from './components/Home'
 import Nav from './components/Nav'
-import About from './components/About'
+import Mission from './components/Mission'
 import Announcements from './components/Announcements'
 import Events from './components/Events'
 import Staff from './components/Staff'
@@ -20,10 +21,33 @@ class App extends React.Component {
         <div>
           <Nav/>
           <ScrollUpButton/>
-           <About/>
-          <Announcements/>
-          <Events/>
-          <Staff/>
+          <Switch>
+            <Route path="/" exact component={Home}>
+              <div id="home-container">
+                <Home/>
+              </div>
+            </Route>
+            <Route path="/Mission">
+              <div id="mission-container"> 
+                <Mission/>
+              </div>
+            </Route>
+            <Route path="/Announcements">
+              <div id="announcements-container"> 
+                <Announcements/>
+              </div>
+            </Route>
+            <Route path="/Events">
+              <div id="events-container">
+                <Events/>
+              </div>
+            </Route>
+            <Route path="/Staff">
+              <div id="staff-container">
+                <Staff/>
+              </div>
+            </Route>
+          </Switch>
           <Footer/>
         </div>
       </Router>
